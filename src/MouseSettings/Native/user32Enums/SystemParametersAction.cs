@@ -1,0 +1,57 @@
+﻿namespace MouseSettings.Native.user32Enums
+{
+    internal enum SystemParametersAction
+    {
+        SPI_SETMOUSEBUTTONSWAP = 0x0021,
+        
+        SPI_GETMOUSECLICKLOCK = 0x101E,
+        SPI_SETMOUSECLICKLOCK = 0x101F,
+        
+        SPI_GETMOUSECLICKLOCKTIME = 0x2008,
+        SPI_SETMOUSECLICKLOCKTIME = 0x2009,
+
+        SPI_GETMOUSESONAR = 0x101C,
+        SPI_SETMOUSESONAR = 0x101D,
+
+        SPI_GETMOUSEVANISH = 0x1020,
+        SPI_SETMOUSEVANISH = 0x1021,
+
+        SPI_GETMOUSESPEED = 0x0070,
+        SPI_SETMOUSESPEED = 0x0071,
+
+        SPI_GETMOUSE = 0x0003,
+        SPI_SETMOUSE = 0x0004,
+
+        SPI_GETMOUSEHOVERHEIGHT = 0x0064,
+        SPI_SETMOUSEHOVERHEIGHT = 0x0065,
+
+        SPI_GETMOUSEHOVERWIDTH = 0x0062,
+        SPI_SETMOUSEHOVERWIDTH = 0x0063,
+
+        SPI_GETMOUSEHOVERTIME = 0x0066,
+        SPI_SETMOUSEHOVERTIME = 0x0067,
+
+        SPI_GETMOUSETRAILS = 0x005E,
+        SPI_SETMOUSETRAILS = 0x005D,
+
+        SPI_GETMOUSEWHEELROUTING = 0x201C,
+        SPI_SETMOUSEWHEELROUTING = 0x201D,
+
+        SPI_GETSNAPTODEFBUTTON = 0x005F,
+        SPI_SETSNAPTODEFBUTTON = 0x0060,
+
+        SPI_GETWHEELSCROLLCHARS = 0x006C,
+        SPI_SETWHEELSCROLLCHARS = 0x006D,
+
+        SPI_GETWHEELSCROLLLINES = 0x0068,
+        SPI_SETWHEELSCROLLLINES = 0x0069,
+
+        SPI_SETDOUBLECLKHEIGHT = 0x001E,
+
+        SPI_SETDOUBLECLKWIDTH = 0x001D,
+
+        // Undocumented. See: https://stackoverflow.com/questions/60104778/change-and-update-the-size-of-the-cursor-in-windows-10-via-powershell
+        GetCursorSize = 0x2028,
+        SetCursorSize = 0x2029
+    }
+}
